@@ -38,13 +38,6 @@
       "id": "8a97a28046b849a7975d3a4ac1a21b5b" // IMPORTANT: Change this to your KV namespace ID
     }
   ],
-  "r2_buckets": [
-    {
-      "binding": "R2",
-      "preview_bucket_name": "sink",
-      "bucket_name": "sink" // IMPORTANT: Change this to your R2 bucket name, or create one with `wrangler r2 bucket create sink`
-    }
-  ],
   "triggers": {
     "crons": ["0 0 * * *"] // Run backup task daily at 00:00 UTC
   }
